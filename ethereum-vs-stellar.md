@@ -1,12 +1,12 @@
 # Ethereum vs. Stellar: Choosing the Right Platform for Wellmee Tokens 
 At Wellmee we're building a mobile app, that enhances people's wellbeing. The app is a part of an ecosystem of employees, employers and marketplaces where people can exchange value through the use of a cryptocurrency token. 
 
-From the beginning, we knew that we don't want to build our token infrastructure from scratch. Nowadays there are quite a few established platforms where you can launch your token, so creating another one makes no sense.  As we wanted to use a widely addopted platform, our choice narrowed down to Ethereum vs. Stellar. 
+From the beginning, we knew that we don't want to build our token infrastructure from scratch. Nowadays there are quite a few established platforms where you can launch your token, so creating another one makes no sense.  As we wanted to use a widely adopted platform, our choice narrowed down to Ethereum vs. Stellar. 
 
-When choosing the platform to launch our tokens we evaluated several criteria. Following is a list of our criteria, for each we're discribing Wellmee unique and not-so-unique needs and how Ethereum and Stellar fit into the scheme of things. 
+When choosing the platform to launch our tokens we evaluated several criteria. Following is a list of our criteria, for each we're describing Wellmee unique and not-so-unique needs and how Ethereum and Stellar fit into the scheme of things. 
 
 ## Implementation Complexity 
-Being a small team with a constrained time frame and budget, we needed a  platform where launching a token would be as technically uncomplicated as possible. Wellmee tokens serve for exchanging value between the ecosystem users, so nothing too innovative on this side. All Wellmee innovation is coming in the mobile app, enhancing lives of our users. 
+At the current stage of Wellmee development we have to be thoughtful about time and budget. Therefore we need a  platform where launching a token would be as technically uncomplicated as possible. Wellmee tokens serve for exchanging value between the ecosystem users, so nothing too innovative on this side. All Wellmee innovation is coming in the mobile app, enhancing lives of our users. 
 
 When you want to launch a simple token on Ethereum, you have to write a good deal of [Solidity code](https://github.com/ethereum/solidity) to define all the parameters of your token, plus some things you don't really want to define, like methods for transferring balances from one account to another. While there are many tutorials on how to do that, there are still challenges you have to deal with, like [overflows](https://ethereum.stackexchange.com/questions/7293/is-it-possible-to-overflow-uints). Everything is documented, but it takes time and effort to get your Solidity code right. 
 
@@ -24,7 +24,7 @@ Stellar only provides a fixed set of [operations](https://www.stellar.org/develo
 Winner: *Stellar* 
 
 ## Adoption
-With our innitial offering, we want to reach as many backers as possible. If the backer already has some funds on the network, they are more likely to buy Wellmee tokens. 
+With our initial offering, we want to reach as many backers as possible. If the backer already has some funds on the network, they are more likely to buy Wellmee tokens. 
 
 At the time of writing, Ethereum market cap is roughly seven times higher than Stellar ([$28B](https://coinmarketcap.com/currencies/ethereum/) vs. [$4B](https://coinmarketcap.com/currencies/stellar/)). While Ethereum is much bigger, Stellar isn't really small either, and has [some successful ICOs](https://www.coindesk.com/why-a-39-million-ico-chose-stellar-over-ethereum/) in its portfolio. 
 
@@ -42,12 +42,12 @@ Winner: *Stellar*
 ## Transaction Speed and Cost
 Wellmee tokens are intended to be used in our partner network for real-world goods and services. It's important to have the transactions fast enough, so that our users don't have to wait hours to see a transaction go through. The tokens could be used for small payments, so we don't want to end up in a situation where the transaction fee is higher than the payment itself. 
 
-The Ethereum network works on the [proof-of-work](https://en.wikipedia.org/wiki/Proof-of-work_system) principle. In a simple language, there's a bunch of miners that [work on cryptographic challenges](https://github.com/ethereum/wiki/wiki/Mining) to confirm your transaction. The transactions can be chosen by the miners, so the more you pay for your transaction, the faster it will [go through](https://ethgasstation.info/). At peak times, transactions can become slow or expensive. For us, when using the token in the partner network, this can be an issue. There are plans to transition to a proof-of-steak algorithm, that could improve things. 
+The Ethereum network works on the [proof-of-work](https://en.wikipedia.org/wiki/Proof-of-work_system) principle. In a simple language, there's a bunch of miners that [work on cryptographic challenges](https://github.com/ethereum/wiki/wiki/Mining) to confirm your transaction. The transactions can be chosen by the miners, so the more you pay for your transaction, the faster it will [go through](https://ethgasstation.info/). At peak times, transactions can become slow or expensive. For us, when using the token in the partner network, this can be an issue. There are plans to transition to a proof-of-stake algorithm, that could improve things. 
 
 Stellar confirms transactions through the [Stellar Consensus Protocol](https://medium.com/a-stellar-journey/on-worldwide-consensus-359e9eb3e949). Using distributed consensus algorithm, the nodes in the network agree on the right set of transactions to confirm. Since there's no hard cryptographic work to be done in mining, the transactions go through fast. Compared to Ethereum, the transaction volumes are much lower, but [stress testing](http://gostellar.io/heir-io-stress-test-over-stellar-beats-their-expectations/) is showing that the network should scale very well. This means fast and cheap transactions. 
 
 Winner: *Stellar* 
 
 
-## Conslusion
+## Conclusion
 After a careful consideration, we're going with Stellar as the platform of choice for Wellmee tokens. We're excited to see Stellar platform grow and hope we can be a flourishing part of the Stellar world. 
