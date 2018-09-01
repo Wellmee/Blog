@@ -1,6 +1,8 @@
 # Ethereum vs. Stellar: Choosing the Right Platform for Wellmee Tokens 
 At Wellmee we're building a mobile app, that enhances people's wellbeing. The app is a part of an ecosystem of employees, employers and marketplaces where people can exchange value through the use of a cryptocurrency token. 
 
+![Ethereum vs. Stellar](logos.png)
+
 From the beginning, we knew that we don't want to build our token infrastructure from scratch. Nowadays there are quite a few established platforms where you can launch your token, so creating another one makes no sense.  As we wanted to use a widely adopted platform, our choice narrowed down to Ethereum vs. Stellar. 
 
 When choosing the platform to launch our tokens we evaluated several criteria. Following is a list of our criteria, for each we're describing Wellmee unique and not-so-unique needs and how Ethereum and Stellar fit into the scheme of things. 
